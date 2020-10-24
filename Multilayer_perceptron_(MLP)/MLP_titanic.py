@@ -21,16 +21,16 @@ def f1(x):
 #    outputs - количество узлов выходного слоя
 def init_weight(inputs, hiddens, hiddens2, outputs):
 #    матрица весов от входного слоя к 1му скрытому слою
-#    принимает рандомные значения и имеет размерность [inputs х hiddens]
-    w1 = np.random.random((inputs, hiddens))
+#    матрица единиц размера [inputs х hiddens]
+    w1 = np.ones((inputs, hiddens))
 #    матрица весов от 1го скрытого слоя к 2му скрытому слою
-#    принимает рандомные значения и имеет размерность [hiddens+1 х hiddens2]
+#    матрица единиц размера [hiddens+1 х hiddens2]
 #    эта матрица имеет кол-во строк на единицу больше т.к. нужно учитывать мнимую единицу
-    w2 = np.random.random((hiddens + 1, hiddens2))
+    w2 = np.ones((hiddens + 1, hiddens2))
 #    матрица весов от 2го скрытого слоя к выходному слою
-#    принимает рандомные значения и имеет размерность [hiddens2+1 х outputs]
+#    матрица единиц размера [hiddens2+1 х outputs]
 #    эта матрица имеет кол-во строк на единицу больше т.к. нужно учитывать мнимую единицу
-    w3 = np.random.random((hiddens2 + 1, outputs))
+    w3 = np.ones((hiddens2 + 1, outputs))
     return w1, w2, w3
 
 
@@ -166,7 +166,7 @@ test = np.c_[np.ones(114),test]
 targets_test = target_data[600:714]
 
 # скорость обучения
-lr = 0.3
+lr = 0.5
 # допустимая погрешность обучения (** - это степень)
 eps = 10**(-8)
 
