@@ -18,7 +18,8 @@
 
 Домашнее задание:
 =
-- home_work_2.pdf
+- home_work_2.pdf - задание
+- форма для ответа -  https://forms.gle/Sp3631cQXqdBLZHm7
 
 ***
 
