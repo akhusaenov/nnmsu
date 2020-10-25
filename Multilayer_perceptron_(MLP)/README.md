@@ -19,7 +19,7 @@
 Домашнее задание:
 =
 - home_work_2.pdf - задание
-- форма для ответа -  https://forms.gle/Sp3631cQXqdBLZHm7
+- форма для ответа -  https://docs.google.com/forms/d/e/1FAIpQLSfo_Rv8PL8cNj8ibHgaaUK1RW26ix70p0-yq0c-j4zFr1v6uA/viewform?usp=sf_link
 
 ***
 
