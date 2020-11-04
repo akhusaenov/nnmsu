@@ -16,5 +16,4 @@
 
 ***
 источники данных:
-> www.kaggle.com/c/titanic
-> www.kaggle.com/lava18/google-play-store-apps?select=googleplaystore.csv
+> www.kaggle.com/c/titanic ; www.kaggle.com/lava18/google-play-store-apps?select=googleplaystore.csv
