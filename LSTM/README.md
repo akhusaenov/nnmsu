@@ -13,5 +13,5 @@
 
 ***
 Источники: 
-* https://habr.com/ru/company/dca/blog/274027/
-Stemmer: http://snowball.tartarus.org/algorithms/russian/stemmer.html
+- * https://habr.com/ru/company/dca/blog/274027/
+- Stemmer: http://snowball.tartarus.org/algorithms/russian/stemmer.html
